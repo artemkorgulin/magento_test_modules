@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<layout>
+    <aristostest_index_index>
+        <reference name="content">
+            <block type="core/template" template="aristostest_settings/index.phtml" />
+        </reference>
+    </aristostest_index_index>
+    <aristostest_test_index>
+        <reference name="content">
+            <block type="core/template" template="aristostest_settings/index.phtml" />
+        </reference>
+    </aristostest_test_index>
+	<aristostest_index_view>
+        <reference name="content">
+            <block type="aristostest_settings/view" name="news.content" template="aristostest_settings/view.phtml" />
+        </reference>
+    </aristostest_index_view>
+</layout>

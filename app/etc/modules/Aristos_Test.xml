@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Aristos_Test>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Aristos_Test>
+    </modules>
+</config>
